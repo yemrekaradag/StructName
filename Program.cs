@@ -6,11 +6,13 @@ namespace StructName
     {
         static void Main(string[] args)
         {
+
             Name myFullName = new Name("Yunus", "Emre", "Karadag");
             string myName = myFullName.ToString(), inits = myFullName.Initials();
             Console.WriteLine("My name is {0}.", myName);
             Console.WriteLine($"My initials are {inits}");
             Console.ReadLine();
+
         }
         public struct Name
         {
