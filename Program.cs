@@ -13,6 +13,7 @@ namespace StructName
             Console.WriteLine($"My initials are {inits}");
             Console.ReadLine();
 
+
         }
         public struct Name
         {
